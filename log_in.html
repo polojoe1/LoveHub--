@@ -31,20 +31,27 @@
                         <li class="nav-item">
                         <a class="nav-link disabled text-light">Download</a>
                         </li>
-                        <li>
-                            <a href="log_in.html"><button class="log_button" action="#">Log in</button></a>
-                        </li>
+                        
                     </ul>
                 </div>
             </div>
         </nav>
         <div id="main_stuff" class="mainstuff">
-            <h1 class="big">Computer Love Ⓡ</h1>
-            <a href="register.html"><button class="big_button"> Create account</button></a>
-            <div class="coming">
-                <p href="#" class="soon">Clothing, Accessories, and More</p>
-                <p href="#" class="soon please">Coming SOON!</p>
-            </div>
+            <form action="/logged" method="post">
+                <div class="form-group">
+                    <label class="h5 text-light" for="exampleInputEmail1">Email address</label>
+                    <input type="email" name="email" class="form-control w-100 mx-auto mb-3" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    
+                </div>
+                <div class="form-group">
+                    <label class="h5 text-light" for="password">Password</label>
+                    <input type="password" name="password" class="form-control w-100 mx-auto mb-3" id="exampleInputPassword1" placeholder="Password">
+                    
+                </div>
+                <!-- <input type="submit" class="btn btn-success" id="button" value="Login"> -->
+            </form>
+            <a href="main_page.html" class="btn btn-success">Log in</a>
+            <a class="h6 text-light" href="register.html">Don't have an account? Sign up!</a>
         </div>
     </div>
     <div class="footer">

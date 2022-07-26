@@ -162,3 +162,172 @@ ul>h4{
     border-radius: 5px;
     border: none;
 }
+
+/* main_page.html */
+
+.fullpage{
+    height: 640px;
+    width: 100%;
+    display: flex;
+}
+
+.leftNav{
+    height: 100%;
+    width: 25%;
+    background-color: whitesmoke;
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+.rightContent{
+    height: 100%;
+    width: 75%;
+    
+}
+.topNav{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: linear-gradient(rgba(255, 5, 176, 0.64),rgba(239, 213, 70, 0.637));
+}
+.topNav2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+}
+.profilepic{
+    height: 40px;
+    width: 40px;
+    background-color: darkgray;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.picWithMessage{
+    height: 100%;
+    width: 248px;
+    display: flex;
+    flex-direction: column;
+}
+.under{
+    text-decoration: underline;
+}
+.logoTop{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.hub{
+    color: rgba(220, 20, 220, 0.649);
+}
+.selection{
+    width: 100%;
+    /* background-color: bisque; */
+    height: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.otherSwipes{
+    width: 80%;
+    height: 95%;
+    background-color: lightslategray;
+    border-radius: 20px;
+}
+.likeOrDislike{
+    position: absolute;
+    width: 75%;
+    bottom: 0px;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.dislikeThem{
+    height: 90%;
+    width: 115px;
+    background-color: plum;
+    background: linear-gradient(rgba(229, 9, 9, 0.739),rgba(229, 9, 159, 0.374));
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(229, 9, 9, 0.649);
+    cursor: pointer;
+}
+.likeThem{
+    height: 90%;
+    width: 115px;
+    background-color: plum;
+    background: linear-gradient(rgba(255, 5, 176, 0.64),rgba(243, 106, 200, 0.525));
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(220, 20, 220, 0.649);
+    cursor: pointer;
+}
+.bigger_heart{
+    font-size: 72px;
+}
+.logout{
+    margin-left: 20px ;
+}
+
+/* messaging */
+
+.pinkmessage{
+    height: fit-content;
+    width: fit-content;
+    background-color: pink;
+    display: block;
+    margin: 10px;
+    border-radius: 10px 10px 10px 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mymessage{
+    height: fit-content;
+    width: fit-content;
+    background-color: rgb(205, 203, 203);
+    display: block;
+    margin-left: 80%;
+    border-radius: 10px 0px 10px 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+.selectionMessage{
+    width: 100%;
+    /* background-color: bisque; */
+    height: 80%;
+    margin: auto;
+    
+    
+}
+.noTextDecor{
+    text-decoration: none;
+    color: black;
+}
+.noTextDecor:hover{
+    color: palevioletred;
+}
+.topPart{
+    display: flex;
+    justify-content: space-around;
+    height: fit-content;
+    width: 100%;
+}
